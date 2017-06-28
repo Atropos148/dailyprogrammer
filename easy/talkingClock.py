@@ -2,8 +2,6 @@
 # made by Atropos148
 import re
 
-print("hello world!")
-
 hourDict = {
     '00': 'twelve',
     '01': 'one',
