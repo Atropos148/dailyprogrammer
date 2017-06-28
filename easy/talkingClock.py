@@ -56,7 +56,7 @@ minutesDict = {
     '50': 'fifty'
 }
 
-time = input('What time is it? (like this 12:34)\n')
+time = input('What time is it? (like this -> 02:34)\n')
 match = re.match(r'\d\d:\d\d', time)
 if match:
     hour = time[:2]
